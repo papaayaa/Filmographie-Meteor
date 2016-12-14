@@ -1,0 +1,23 @@
+
+
+<template name="filmographie">
+  <ul>
+      {{#each all_films}}
+      <li> {{ name }} {{ year }}</li>
+      {{/each}}
+  </ul>
+
+  <hr/>
+    <div id="form">
+        <div>Ajoutez un nouveau film:</div>
+    <input id="name" type="text" placeholder="Nom du film"/>
+    <input id="year" type="text" placeholder="Année"/>
+        <button id="submit_film">Nouvel film</button>
+    </div>
+</template>
+
+
+
+
+
+

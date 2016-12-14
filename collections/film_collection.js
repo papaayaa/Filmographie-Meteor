@@ -1,0 +1,1 @@
+films = new Mongo.Collection( "films" );
